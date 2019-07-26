@@ -22,8 +22,7 @@
     "php": ">=5.6.0",
     "yiisoft/yii2": ">=2.0.0",
     "mimicreative/yii2-datatables": "~1.0.0",
-    "bower-asset/bootstrap": "~4.0.0",
-    "yiisoft/yii2-bootstrap": "~2.0.10"
+    "yiisoft/yii2-bootstrap4": "~1.0.0"
   },
   "extra": {
     "bootstrap": "akupeduli\\material\\Bootstrap"
