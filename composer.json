@@ -23,7 +23,7 @@
     "yiisoft/yii2": ">=2.0.0",
     "mimicreative/yii2-datatables": "dev-metronic-support",
     "bower-asset/bootstrap": "~4.0.0@beta",
-    "yiisoft/yii2-bootstrap": "~2.1.0@dev"
+    "yiisoft/yii2-bootstrap": "~2.0.10"
   },
   "extra": {
     "bootstrap": "akupeduli\\material\\Bootstrap"
