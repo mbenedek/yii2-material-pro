@@ -21,8 +21,8 @@
   "require": {
     "php": ">=5.6.0",
     "yiisoft/yii2": ">=2.0.0",
-    "mimicreative/yii2-datatables": "dev-metronic-support",
-    "bower-asset/bootstrap": "~4.0.0@beta",
+    "mimicreative/yii2-datatables": "~1.0.0",
+    "bower-asset/bootstrap": "~4.0.0",
     "yiisoft/yii2-bootstrap": "~2.0.10"
   },
   "extra": {
