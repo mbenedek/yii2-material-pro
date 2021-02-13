@@ -17,7 +17,7 @@ $(function () {
     // ==============================================================  
     var set = function () {
         var width = (window.innerWidth > 0) ? window.innerWidth : this.screen.width;
-        var topOffset = 70 - 36;
+        var topOffset = 70;
         if (width < 1170) {
             $("body").addClass("mini-sidebar");
             $('.navbar-brand span').hide();
@@ -28,6 +28,12 @@ $(function () {
             $("body").removeClass("mini-sidebar");
             $('.navbar-brand span').show();
             //$(".sidebartoggler i").removeClass("ti-menu");
+        }
+
+        // adjust offset for mobile scale
+        if (width < 768)
+        {
+            topOffset =- 36;
         }
 
         var height = ((window.innerHeight > 0) ? window.innerHeight : this.screen.height) - 1;
