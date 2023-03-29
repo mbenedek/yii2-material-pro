@@ -12,7 +12,7 @@ class MaterialAsset extends AssetBundle
 {
     public $sourcePath = "@akupeduli/material/web";
     public $js = [
-        "js/custom.js"
+        "js/custom.min.js"
     ];
     public $css = [
         "css/style.css"
