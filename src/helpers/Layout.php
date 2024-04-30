@@ -20,7 +20,7 @@ class Layout
      */
     public static function getHtmlOptions($tag, $options = [], $asString = false)
     {
-        $callback = sprintf('static::_%sOptions', strtolower($tag));
+	    $callback = sprintf(static::class.'::_%sOptions', strtolower($tag));
         
         $htmlOptions = call_user_func($callback, $options);
         
